@@ -89,7 +89,7 @@ def trouver_circuit(M):
 
 def more_circuit(M):
     for i in range(20):
-        random.seed()
+        random.seed(i)
         print(trouver_circuit(M))
 
 
